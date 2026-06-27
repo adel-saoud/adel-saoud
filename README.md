@@ -2,9 +2,9 @@
 
 # Adel Saoud
 
-### AI Engineer @ SFEIR · on mission at Decathlon France
+### AI & Software Engineer @ SFEIR · on mission at Decathlon France
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=780&lines=AI+Engineer+%C2%B7+SFEIR+%C2%B7+on+mission+at+Decathlon+France;Multi-agent+HR+assistant+%C2%B7+30%2C000+employees+%C2%B7+97.7%25+accuracy;Quality+%C2%B7+Cost+%C2%B7+Privacy+%E2%80%94+covered)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=780&lines=AI+Engineer+%C2%B7+SFEIR+%C2%B7+on+mission+at+Decathlon+France;Multi-agent+HR+assistant+%C2%B7+30%2C000%2B+employees+%C2%B7+97.7%25+accuracy;Quality+%C2%B7+Cost+%C2%B7+Privacy+%E2%80%94+covered)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-adel--saoud-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adel-saoud)
 
@@ -16,7 +16,7 @@
 
 I'm an AI Engineer at **SFEIR**, a French IT consulting firm, currently on mission at **Decathlon France** building **DaiLY** — a multi-agent HR assistant for 30,000+ employees in Google Chat, with answer accuracy lifted from ~60% to 97.7% on its lead agent through a systematic eval pipeline. Before joining SFEIR, I spent five years inside Decathlon — first in France on internal HR tooling, then in the UK building the e-commerce marketplace platform that drove £2.6M GMV in 2024.
 
-I work embedded inside client teams, owning delivery end-to-end. My four open-source projects mirror the patterns I ship in production. Currently exploring privacy-safe RAG and cost-attribution patterns for production LLM systems.
+I work embedded inside client teams, owning delivery end-to-end. My four open-source projects mirror the patterns I ship in production: they cover privacy-safe RAG, cost attribution, and quality evaluation — the problem classes I solve every day.
 
 - 🛠️ Multi-agent systems · RAG · LLMOps · evaluation pipelines
 - 🌍 🇫🇷 French (native) · 🇬🇧 English (C2) · 🇪🇸 Spanish
@@ -27,7 +27,9 @@ I work embedded inside client teams, owning delivery end-to-end. My four open-so
 
 Four production-grade open-source projects, all type-strict, high-coverage, full CI. Together they cover the three problems every team running LLMs hits:
 
-> **Cost: gateway tracks where the budget went; autopilot prevents it going to the wrong place. Quality: detector catches quality drops when prompts change. Privacy: guardian keeps personal data out of both the index and the response.**
+> - **Cost** — gateway tracks where the budget went; autopilot prevents it going to the wrong place
+> - **Quality** — detector catches quality drops when prompts change
+> - **Privacy** — guardian keeps personal data out of both the index and the response
 
 ### [llm-gateway](https://github.com/adel-saoud/llm-gateway)
 An OpenAI-compatible gateway that attributes spend across the four stages of a RAG pipeline — retrieval, reranking, generation, evaluation — so teams stop guessing which stage is eating their budget.
@@ -56,6 +58,7 @@ A RAG pipeline with three-stage PII detection at ingestion (Presidio + GLiNER + 
 ### DaiLY — GenAI mission @ Decathlon France (via SFEIR) · *2026 · proprietary*
 Lead developer on a multi-agent HR assistant in Google Chat serving 30,000+ employees across France and Switzerland.
 - Coordinator + **4 specialized sub-agents** over the **A2A protocol** on Cloud Run, built on Google ADK and Gemini (Vertex AI)
+- Vertex AI Search RAG pipeline over **100+ HR policy documents**, unifying access to **280+ internal HR tools** — every response validated by Vertex AI's Check Grounding API to suppress hallucinations before reply
 - LLM-as-Judge eval pipeline: **600+ golden cases** across 4 agents + a coordinator routing suite — rubric pass lifted from **~60% to 97.7% on HR Knowledge**, 87–96% across the remaining agents
 - 2-layer production kill switch (5–10s Cloud Run cutoff + 30s TTL registry toggle, no redeploy) · keyless CI/CD via GitHub Actions + Workload Identity Federation
 - BigQuery observability tying answer quality to the exact prompt revision (per-prompt-hash, per-model, per-cost-center)
@@ -67,6 +70,7 @@ Built the e-commerce marketplace connector platform across three countries.
 - **£2.6M GMV** in 2024 · **€528K GMV** on the Glovo connector since August 2025
 - **40,000+ product updates/day** via Cloud Firestore
 - Onboarding time per new marketplace: **8 weeks → 4 weeks**
+- Built a cost-free user-management interface in Google Apps Script — **90% reduction in fraudulent transactions across all 90 UK retail stores**
 
 ### Software Engineering — Decathlon France · *2021–2023 · proprietary*
 Automation of HR processes and internal tooling.
@@ -81,12 +85,14 @@ Automation of HR processes and internal tooling.
 
 ### AI & ML
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Vertex AI](https://img.shields.io/badge/Vertex_AI-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Google ADK](https://img.shields.io/badge/Google_ADK-1A73E8?style=for-the-badge&logo=google&logoColor=white)
+![A2A Protocol](https://img.shields.io/badge/A2A_Protocol-1A73E8?style=for-the-badge&logo=google&logoColor=white)
+![Vertex AI Search](https://img.shields.io/badge/Vertex_AI_Search-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white)
 ![Claude](https://img.shields.io/badge/Anthropic_Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![Presidio](https://img.shields.io/badge/Presidio-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 ![GLiNER](https://img.shields.io/badge/GLiNER-2D3748?style=for-the-badge)
 
@@ -98,8 +104,8 @@ Automation of HR processes and internal tooling.
 
 ### Cloud & Infra
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Cloud Run](https://img.shields.io/badge/Cloud_Run-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Cloud Run](https://img.shields.io/badge/Cloud_Run-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
