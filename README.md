@@ -59,7 +59,7 @@ Lead developer on a multi-agent HR assistant in Google Chat serving 30,000+ empl
 - LLM-as-Judge eval pipeline: **600+ golden cases** across 4 agents + a coordinator routing suite — rubric pass lifted from **~60% to 97.7% on HR Knowledge**, 87–96% across the remaining agents
 - 2-layer production kill switch (5–10s Cloud Run cutoff + 30s TTL registry toggle, no redeploy) · keyless CI/CD via GitHub Actions + Workload Identity Federation
 - BigQuery observability tying answer quality to the exact prompt revision (per-prompt-hash, per-model, per-cost-center)
-- Appointed France's technical lead on the **RAG Alignment Task Force** for the 100K-user global rollout
+- Technical alignment with Decathlon NL and ES on cross-country RAG architecture
 
 ### Marketplace platform — Software Engineer @ Decathlon UK · *2023–2026 · proprietary*
 Built the e-commerce marketplace connector platform across three countries.
