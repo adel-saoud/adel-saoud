@@ -54,7 +54,7 @@ A RAG pipeline with three-stage PII detection at ingestion (Presidio + GLiNER + 
 ## 🏆 Missions
 
 ### DaiLY — GenAI mission @ Decathlon France (via SFEIR) · *2026 · proprietary*
-Sole technical lead on a multi-agent HR assistant in Google Chat serving 30,000+ employees across France and Switzerland.
+Lead developer on a multi-agent HR assistant in Google Chat serving 30,000+ employees across France and Switzerland.
 - Coordinator + **4 specialized sub-agents** over the **A2A protocol** on Cloud Run, built on Google ADK and Gemini (Vertex AI)
 - LLM-as-Judge eval pipeline: **600+ golden cases** across 4 agents + a coordinator routing suite — rubric pass lifted from **~60% to 97.7% on HR Knowledge**, 87–96% across the remaining agents
 - 2-layer production kill switch (5–10s Cloud Run cutoff + 30s TTL registry toggle, no redeploy) · keyless CI/CD via GitHub Actions + Workload Identity Federation
