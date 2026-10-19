@@ -82,31 +82,10 @@ Automation of HR processes and internal tooling.
 
 ## 💻 Tech stack
 
-<p align="center">
-  <img src="https://unpkg.com/@lobehub/icons-static-png@1.97.1/light/gemini-color.png" width="32" height="32" alt="Gemini" title="Gemini" />&nbsp;&nbsp;
-  <img src="https://unpkg.com/@lobehub/icons-static-png@1.97.1/light/vertexai-color.png" width="32" height="32" alt="Vertex AI" title="Vertex AI" />&nbsp;&nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://unpkg.com/@lobehub/icons-static-png@1.97.1/dark/openai.png" /><img src="https://unpkg.com/@lobehub/icons-static-png@1.97.1/light/openai.png" width="32" height="32" alt="OpenAI" title="OpenAI" /></picture>&nbsp;&nbsp;
-  <img src="https://unpkg.com/@lobehub/icons-static-png@1.97.1/light/claude-color.png" width="32" height="32" alt="Claude" title="Claude" />&nbsp;&nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://unpkg.com/@lobehub/icons-static-png@1.97.1/dark/ollama.png" /><img src="https://unpkg.com/@lobehub/icons-static-png@1.97.1/light/ollama.png" width="32" height="32" alt="Ollama" title="Ollama" /></picture>&nbsp;&nbsp;
-  <img src="https://unpkg.com/@lobehub/icons-static-png@1.97.1/light/huggingface-color.png" width="32" height="32" alt="Hugging Face" title="Hugging Face" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/python" width="32" height="32" alt="Python" title="Python" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/fastapi" width="32" height="32" alt="FastAPI" title="FastAPI" />&nbsp;&nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/openjdk/ffffff" /><img src="https://cdn.simpleicons.org/openjdk" width="32" height="32" alt="Java" title="Java" /></picture>&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/spring" width="32" height="32" alt="Spring Boot" title="Spring Boot" />
-  <br /><br />
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/apachekafka/ffffff" /><img src="https://cdn.simpleicons.org/apachekafka" width="32" height="32" alt="Kafka" title="Kafka" /></picture>&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/googlecloud" width="32" height="32" alt="Google Cloud" title="Google Cloud" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/docker" width="32" height="32" alt="Docker" title="Docker" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/githubactions" width="32" height="32" alt="GitHub Actions" title="GitHub Actions" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/terraform" width="32" height="32" alt="Terraform" title="Terraform" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/postgresql" width="32" height="32" alt="PostgreSQL" title="PostgreSQL" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/redis" width="32" height="32" alt="Redis" title="Redis" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/firebase" width="32" height="32" alt="Firestore" title="Firestore" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/prometheus" width="32" height="32" alt="Prometheus" title="Prometheus" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/grafana" width="32" height="32" alt="Grafana" title="Grafana" />
-</p>
-
-<p align="center"><sub>Google ADK · A2A protocol · Vertex AI Search · Model Armor · BigQuery · MLflow · Databricks · OpenTelemetry · Qdrant · Presidio · GLiNER</sub></p>
+- <b>AI &amp; agents:</b> <img src="https://unpkg.com/@lobehub/icons-static-png@1.97.1/light/gemini-color.png" width="16" height="16" alt="" /> Gemini · <img src="https://unpkg.com/@lobehub/icons-static-png@1.97.1/light/vertexai-color.png" width="16" height="16" alt="" /> Vertex AI · <picture><source media="(prefers-color-scheme: dark)" srcset="https://unpkg.com/@lobehub/icons-static-png@1.97.1/dark/openai.png" /><img src="https://unpkg.com/@lobehub/icons-static-png@1.97.1/light/openai.png" width="16" height="16" alt="" /></picture> OpenAI · <img src="https://unpkg.com/@lobehub/icons-static-png@1.97.1/light/claude-color.png" width="16" height="16" alt="" /> Claude · <picture><source media="(prefers-color-scheme: dark)" srcset="https://unpkg.com/@lobehub/icons-static-png@1.97.1/dark/ollama.png" /><img src="https://unpkg.com/@lobehub/icons-static-png@1.97.1/light/ollama.png" width="16" height="16" alt="" /></picture> Ollama · <img src="https://unpkg.com/@lobehub/icons-static-png@1.97.1/light/huggingface-color.png" width="16" height="16" alt="" /> Hugging Face · Google ADK · A2A protocol
+- <b>RAG, evals &amp; safety:</b> <img src="https://cdn.simpleicons.org/qdrant" width="16" height="16" alt="" /> Qdrant · <img src="https://cdn.simpleicons.org/mlflow" width="16" height="16" alt="" /> MLflow · <img src="https://cdn.simpleicons.org/databricks" width="16" height="16" alt="" /> Databricks · <picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/opentelemetry/ffffff" /><img src="https://cdn.simpleicons.org/opentelemetry" width="16" height="16" alt="" /></picture> OpenTelemetry · Vertex AI Search · LLM-as-Judge · Presidio · GLiNER · Model Armor
+- <b>Backend:</b> <img src="https://cdn.simpleicons.org/python" width="16" height="16" alt="" /> Python · <img src="https://cdn.simpleicons.org/fastapi" width="16" height="16" alt="" /> FastAPI · <picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/openjdk/ffffff" /><img src="https://cdn.simpleicons.org/openjdk" width="16" height="16" alt="" /></picture> Java · <img src="https://cdn.simpleicons.org/spring" width="16" height="16" alt="" /> Spring Boot · <picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/apachekafka/ffffff" /><img src="https://cdn.simpleicons.org/apachekafka" width="16" height="16" alt="" /></picture> Kafka
+- <b>Cloud &amp; data:</b> <img src="https://cdn.simpleicons.org/googlecloud" width="16" height="16" alt="" /> Google Cloud · <img src="https://cdn.simpleicons.org/googlebigquery" width="16" height="16" alt="" /> BigQuery · <img src="https://cdn.simpleicons.org/firebase" width="16" height="16" alt="" /> Firestore · <img src="https://cdn.simpleicons.org/terraform" width="16" height="16" alt="" /> Terraform · <img src="https://cdn.simpleicons.org/docker" width="16" height="16" alt="" /> Docker · <img src="https://cdn.simpleicons.org/githubactions" width="16" height="16" alt="" /> GitHub Actions · <img src="https://cdn.simpleicons.org/postgresql" width="16" height="16" alt="" /> PostgreSQL · <img src="https://cdn.simpleicons.org/redis" width="16" height="16" alt="" /> Redis · <img src="https://cdn.simpleicons.org/prometheus" width="16" height="16" alt="" /> Prometheus · <img src="https://cdn.simpleicons.org/grafana" width="16" height="16" alt="" /> Grafana · Cloud Run
 
 ---
 
