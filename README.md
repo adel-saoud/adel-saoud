@@ -108,38 +108,6 @@ Automation of HR processes and internal tooling.
 
 <p align="center"><sub>Google ADK · A2A protocol · Vertex AI Search · Model Armor · BigQuery · MLflow · Databricks · OpenTelemetry · Qdrant · Presidio · GLiNER</sub></p>
 
-<details>
-<summary><code>GET /.well-known/agent-card.json</code></summary>
-
-```jsonc
-// GET /.well-known/agent-card.json
-{
-  "name": "Adel Saoud",
-  "description": "AI Engineer · lead dev of a multi-agent HR assistant for 30,000+ employees",
-  "documentationUrl": "https://linkedin.com/in/adel-saoud",
-  "skills": [
-    { "id": "agents", "name": "Multi-agent systems",
-      "tags": ["Google ADK", "A2A protocol", "Gemini", "Vertex AI"] },
-    { "id": "rag", "name": "RAG & grounding",
-      "tags": ["Vertex AI Search", "Qdrant", "hybrid search", "Presidio", "GLiNER"] },
-    { "id": "evals", "name": "Evaluation & LLMOps",
-      "tags": ["LLM-as-Judge", "golden datasets", "MLflow", "Databricks", "OpenTelemetry"] },
-    { "id": "safety", "name": "AI safety & privacy",
-      "tags": ["Model Armor", "Cloud DLP", "PII redaction"] },
-    { "id": "models", "name": "Models",
-      "tags": ["Gemini", "OpenAI", "Claude", "Ollama", "Hugging Face"] },
-    { "id": "backend", "name": "Backend",
-      "tags": ["Python", "FastAPI", "Java", "Spring Boot", "Kafka"] },
-    { "id": "cloud", "name": "Cloud & DevOps",
-      "tags": ["Google Cloud", "Cloud Run", "Terraform", "Docker", "GitHub Actions"] },
-    { "id": "data", "name": "Data & observability",
-      "tags": ["BigQuery", "Firestore", "PostgreSQL", "Redis", "Prometheus", "Grafana"] }
-  ]
-}
-```
-
-</details>
-
 ---
 
 <div align="center">
