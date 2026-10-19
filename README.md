@@ -16,7 +16,7 @@
 
 I'm an AI Engineer at **SFEIR**, a French IT consulting firm, currently on mission at **Decathlon France** building **DaiLY** — a multi-agent HR assistant for 30,000+ employees in Google Chat, with answer accuracy lifted from ~60% to 97.7% on its lead agent through a systematic eval pipeline. Before joining SFEIR, I spent five years inside Decathlon — first in France on internal HR tooling, then in the UK building the e-commerce marketplace platform that drove £2.6M GMV in 2024.
 
-I work embedded inside client teams, owning delivery end-to-end. My four open-source projects mirror the patterns I ship in production: they cover privacy-safe RAG, cost attribution, and quality evaluation — the problem classes I solve every day.
+I work embedded inside client teams, owning delivery end-to-end. My open-source projects tackle problems I've met running LLMs in production: privacy-safe RAG, cost attribution and quality evaluation.
 
 - 🛠️ Multi-agent systems · RAG · LLMOps · evaluation pipelines
 - 🌍 🇫🇷 French (native) · 🇬🇧 English (C2) · 🇪🇸 Spanish
@@ -25,7 +25,7 @@ I work embedded inside client teams, owning delivery end-to-end. My four open-so
 
 ## ✅ Live projects
 
-Four production-grade open-source projects, all type-strict, high-coverage, full CI. Together they cover the three problems every team running LLMs hits:
+Four open-source projects engineered to production standards: Pyright strict, 86–95% test coverage, CI and eval workflows on every push. Together they cover the three problems every team running LLMs hits:
 
 > - **Cost** — gateway tracks where the budget went; autopilot prevents it going to the wrong place
 > - **Quality** — detector catches quality drops when prompts change
@@ -34,22 +34,22 @@ Four production-grade open-source projects, all type-strict, high-coverage, full
 ### [llm-gateway](https://github.com/adel-saoud/llm-gateway)
 An OpenAI-compatible gateway that attributes spend across the four stages of a RAG pipeline — retrieval, reranking, generation, evaluation — so teams stop guessing which stage is eating their budget.
 
-> **RAG-aware cost attribution · <8ms gateway overhead · multi-provider fallback · circuit breakers · 92% coverage**
+> **RAG-aware cost attribution · multi-provider fallback · circuit breakers · Redis rate limiting · 92% coverage**
 
 ### [llm-cost-autopilot](https://github.com/adel-saoud/llm-cost-autopilot)
-A two-stage router (embedding similarity, then DeBERTa zero-shot on ambiguous cases) that sends each request to the cheapest capable model, then learns from its own routing mistakes via a feedback loop.
+A two-stage router (embedding similarity, then DeBERTa zero-shot on ambiguous cases) that sends each request to the cheapest capable model, then an async verifier re-runs a sample on a stronger model and logs every routing disagreement to a correction dataset.
 
-> **94.6% routing accuracy · self-improving · 60–80% cost reduction on typical workloads · 95% coverage**
+> **94.6% agreement with a stronger-model verifier · 14.6% cost reduction on a 1,000-request load test · 95% coverage**
 
 ### [llm-regression-detector](https://github.com/adel-saoud/llm-regression-detector)
-A CI quality gate that runs your LLM against a golden dataset on every PR, diffs accuracy with Wilson 95% confidence intervals, and blocks the merge when the drop is statistically real — inspired by the eval pipeline behind DaiLY in production.
+A CI quality gate that runs your LLM against a golden dataset on every PR, diffs accuracy with Wilson 95% confidence intervals, and blocks the merge when the drop is statistically real.
 
 > **-30pp regression detected automatically in CI · 86% coverage · GitHub Actions + Slack alerts**
 
 ### [guardian-rag](https://github.com/adel-saoud/guardian-rag)
-A RAG pipeline with three-stage PII detection at ingestion (Presidio + GLiNER + DeBERTa) and a post-generation audit on every answer — aligned with EU AI Act Article 10 by design.
+A RAG pipeline with three-stage PII detection at ingestion (Presidio, GLiNER, then DeBERTa validation on low-confidence spans only) and a post-generation audit on every answer, designed around EU AI Act data-governance principles (Art. 10).
 
-> **100% PII recall · 0.93 precision · 0 post-generation leaks · 93% coverage**
+> **100% PII recall · 0.93 precision on a 91-entity synthetic benchmark · 0 post-generation leaks · 93% coverage**
 
 ---
 
