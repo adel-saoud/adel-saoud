@@ -83,19 +83,33 @@ Automation of HR processes and internal tooling.
 ## 💻 Tech stack
 
 <p align="center">
-  <sub><b>AI &amp; LLM</b></sub><br />
-  <img src="https://unpkg.com/@lobehub/icons-static-png@1.97.1/light/gemini-color.png" width="36" height="36" alt="Gemini" title="Gemini" />&nbsp;&nbsp;
-  <img src="https://unpkg.com/@lobehub/icons-static-png@1.97.1/light/vertexai-color.png" width="36" height="36" alt="Vertex AI" title="Vertex AI" />&nbsp;&nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://unpkg.com/@lobehub/icons-static-png@1.97.1/dark/openai.png" /><img src="https://unpkg.com/@lobehub/icons-static-png@1.97.1/light/openai.png" width="36" height="36" alt="OpenAI" title="OpenAI" /></picture>&nbsp;&nbsp;
-  <img src="https://unpkg.com/@lobehub/icons-static-png@1.97.1/light/claude-color.png" width="36" height="36" alt="Claude" title="Claude" />&nbsp;&nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://unpkg.com/@lobehub/icons-static-png@1.97.1/dark/ollama.png" /><img src="https://unpkg.com/@lobehub/icons-static-png@1.97.1/light/ollama.png" width="36" height="36" alt="Ollama" title="Ollama" /></picture>&nbsp;&nbsp;
-  <img src="https://unpkg.com/@lobehub/icons-static-png@1.97.1/light/huggingface-color.png" width="36" height="36" alt="Hugging Face" title="Hugging Face" />
+  <img src="https://unpkg.com/@lobehub/icons-static-png@1.97.1/light/gemini-color.png" width="32" height="32" alt="Gemini" title="Gemini" />&nbsp;&nbsp;
+  <img src="https://unpkg.com/@lobehub/icons-static-png@1.97.1/light/vertexai-color.png" width="32" height="32" alt="Vertex AI" title="Vertex AI" />&nbsp;&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://unpkg.com/@lobehub/icons-static-png@1.97.1/dark/openai.png" /><img src="https://unpkg.com/@lobehub/icons-static-png@1.97.1/light/openai.png" width="32" height="32" alt="OpenAI" title="OpenAI" /></picture>&nbsp;&nbsp;
+  <img src="https://unpkg.com/@lobehub/icons-static-png@1.97.1/light/claude-color.png" width="32" height="32" alt="Claude" title="Claude" />&nbsp;&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://unpkg.com/@lobehub/icons-static-png@1.97.1/dark/ollama.png" /><img src="https://unpkg.com/@lobehub/icons-static-png@1.97.1/light/ollama.png" width="32" height="32" alt="Ollama" title="Ollama" /></picture>&nbsp;&nbsp;
+  <img src="https://unpkg.com/@lobehub/icons-static-png@1.97.1/light/huggingface-color.png" width="32" height="32" alt="Hugging Face" title="Hugging Face" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/python" width="32" height="32" alt="Python" title="Python" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/fastapi" width="32" height="32" alt="FastAPI" title="FastAPI" />&nbsp;&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/openjdk/ffffff" /><img src="https://cdn.simpleicons.org/openjdk" width="32" height="32" alt="Java" title="Java" /></picture>&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/spring" width="32" height="32" alt="Spring Boot" title="Spring Boot" />
+  <br /><br />
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/apachekafka/ffffff" /><img src="https://cdn.simpleicons.org/apachekafka" width="32" height="32" alt="Kafka" title="Kafka" /></picture>&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/googlecloud" width="32" height="32" alt="Google Cloud" title="Google Cloud" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/docker" width="32" height="32" alt="Docker" title="Docker" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/githubactions" width="32" height="32" alt="GitHub Actions" title="GitHub Actions" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/terraform" width="32" height="32" alt="Terraform" title="Terraform" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/postgresql" width="32" height="32" alt="PostgreSQL" title="PostgreSQL" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/redis" width="32" height="32" alt="Redis" title="Redis" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/firebase" width="32" height="32" alt="Firestore" title="Firestore" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/prometheus" width="32" height="32" alt="Prometheus" title="Prometheus" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/grafana" width="32" height="32" alt="Grafana" title="Grafana" />
 </p>
 
-<p align="center">
-  <sub><b>Backend · Cloud · Data</b></sub><br />
-  <img src="https://skillicons.dev/icons?i=py,fastapi,java,spring,kafka,gcp,docker,githubactions,terraform,postgres,redis,firebase,prometheus,grafana&perline=14" alt="Python, FastAPI, Java, Spring Boot, Kafka, Google Cloud, Docker, GitHub Actions, Terraform, PostgreSQL, Redis, Firestore, Prometheus, Grafana" />
-</p>
+<p align="center"><sub>Google ADK · A2A protocol · Vertex AI Search · Model Armor · BigQuery · MLflow · Databricks · OpenTelemetry · Qdrant · Presidio · GLiNER</sub></p>
+
+<details>
+<summary><code>GET /.well-known/agent-card.json</code></summary>
 
 ```jsonc
 // GET /.well-known/agent-card.json
@@ -123,6 +137,8 @@ Automation of HR processes and internal tooling.
   ]
 }
 ```
+
+</details>
 
 ---
 
